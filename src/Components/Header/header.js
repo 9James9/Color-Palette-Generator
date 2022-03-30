@@ -6,7 +6,7 @@ const Header = () => {
     <div>
         <div className='header__container'>
             <h1 className='header__title'>Color Palette Generator</h1>
-            <nav>
+            <nav className='nav__container'>
                 <Nav/>
             </nav>
         </div>
