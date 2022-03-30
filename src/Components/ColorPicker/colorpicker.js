@@ -3,7 +3,7 @@ import "./colorpicker.css";
 const ColorPicker = () => {
     const [color, setColor] = useState(false)
   return (
-    <div>
+    <div className="container">
       <div className="colorPicker">
         <form>
           <input
