@@ -48,7 +48,7 @@
     height: 50px;
     width: 50px;
     z-index: 69;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .colorWindow__Title {
@@ -59,6 +59,26 @@
     width: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.colorWindow__randomBtn {
+    padding: 10px;
+    border-radius: 10px;
+    animation-name: shrink;
+    animation-duration: .1s;
+    cursor: pointer;
+}
+
+.colorWindow__randomBtn:active {
+    background-color: #13a3ee;
+    transform: scale(1.1);
+    animation-name: grow;
+    animation-duration: .1s;
+}
+
+.colorWindow__randomBtn:hover {
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
 }
