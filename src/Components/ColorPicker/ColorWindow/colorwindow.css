@@ -2,6 +2,15 @@
     width: 300px;
     height: 400px;
     background-color: blue;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorWindow__container:hover .colorWindow__text{
+
+    visibility: visible;
 }
 
 .colorWindow__container:hover {
@@ -19,3 +28,9 @@
         transform: scale(1.2);
     }
 }
+
+.colorWindow__text {
+    visibility: hidden;
+    color: white;
+}
+
