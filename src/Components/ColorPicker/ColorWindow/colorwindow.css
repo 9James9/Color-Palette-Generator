@@ -1,0 +1,27 @@
+.colorWindow__container {
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+.colorWindow__container:hover {
+    background-color: black;
+    animation-name: grow;
+    animation-duration: .3s;
+    /* width: 350px;
+    height: 450px; */
+    transform: scale(1.2);
+    cursor: pointer;
+}
+@keyframes grow {
+    from {
+        /* width: 300px;
+        height: 300px; */
+        transform: scale(1);
+    }
+    to {
+        /* width: 350px;
+        height: 450px; */
+        transform: scale(1.2);
+    }
+}

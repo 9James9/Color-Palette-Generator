@@ -1,10 +1,20 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./colorpicker.css";
+import ColorWindow from "./ColorWindow/colorwindow";
 const ColorPicker = () => {
-    const [color, setColor] = useState(false)
+    const [color, setColor] = useState('#696969')
+    useEffect(() => {
+        document.querySelector('.colorDisplay').style.backgroundColor = color
+    },[color])
+    const copyColorToClipboard = () => {
+        navigator.clipboard.writeText(color)
+    }
   return (
     <div className="container">
       <div className="colorPicker">
+          <div className="colorPicker__title--container">
+              <h2>Choose a color</h2>
+          </div>
         <form>
           <input
             type="color"
@@ -15,14 +25,15 @@ const ColorPicker = () => {
           <button
             onClick={(e) => {
               e.preventDefault();
-              document.querySelector(".container").style.backgroundColor =
-                color;
-              console.log(color);
-              navigator.clipboard.writeText(color);
+              copyColorToClipboard()
             }}
           >
-            Submit
+            Copy to clipboard
           </button>
+          <div className="colorDisplay">
+              <h1>YOOOOO</h1>
+              <ColorWindow color={color} copy={copyColorToClipboard}/>
+          </div>
         </form>
       </div>
     </div>
