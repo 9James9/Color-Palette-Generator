@@ -7,12 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./Components/About/about";
 function App() {
   return (
-    //     <div className="app__container">
-    //       <Header/>
-    // <ColorPicker/>
-    //     </div>
     <div>
-
       <BrowserRouter>
       <Header />
         <Routes>
