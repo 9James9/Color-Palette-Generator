@@ -5,8 +5,8 @@ const Nav = () => {
     <div className='nav__container'>
         <ul className='nav__items--container'>
             <li>Home</li>
-            <li>Random color picker</li>
-            <li>Manual color picker</li>
+            <li>Color picker</li>
+            <li>About</li>
         </ul>
     </div>
   )
