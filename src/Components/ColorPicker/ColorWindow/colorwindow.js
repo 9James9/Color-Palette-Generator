@@ -15,8 +15,8 @@ const ColorWindow = () => {
   return (
     <div>
       <div className="inputContainer">
-        <h4>Select a color:</h4>
-        <input type="color" onChange={updateColor}></input>
+        <h4 className="colorWindow__Title">Select a color:</h4>
+        <input type="color" onChange={updateColor} className="colorWindow__input"></input>
       </div>
       <div className="colorWindow__container" onClick={copyColor}>
         <p className="colorWindow__text">Copy to clipboard</p>

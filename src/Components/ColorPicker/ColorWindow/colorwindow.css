@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: shrink;
+    animation-duration: 0.3s;
 }
 
 .colorWindow__container:hover .colorWindow__text{
@@ -29,8 +31,34 @@
     }
 }
 
+@keyframes shrink {
+    from {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
 .colorWindow__text {
     visibility: hidden;
     color: white;
 }
 
+.colorWindow__input {
+    height: 50px;
+    width: 50px;
+    z-index: 69;
+    margin-bottom: 50px;
+}
+
+.colorWindow__Title {
+    text-align: center;
+}
+
+.inputContainer {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
