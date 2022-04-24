@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./colorwindow.css";
-const ColorWindow = () => {
+const ColorWindow = ({random}) => {
   const [color, setColor] = useState("#696969");
+  useEffect(() => {
+    setColor(random)
+  },[random])
   const updateColor = (e) => {
     setColor(e.target.value);
   };
