@@ -19,7 +19,7 @@ const backgroundStyle = {
     backgroundColor: color
 }
   return (
-    <div>
+    <div className="colorWindow__wrap">
       <div className="inputContainer">
         <input type="color" onChange={updateColor} className="colorWindow__input"></input>
         <button className="colorWindow__randomBtn" onClick={(e) => {
