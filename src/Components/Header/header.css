@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: #92d3ff;
+    height: 15vh;
 }
 
 .nav__container {
