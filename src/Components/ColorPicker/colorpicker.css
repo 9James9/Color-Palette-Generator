@@ -19,7 +19,7 @@
     /* background-image: linear-gradient(45deg,#446b61,#dad29d);
     animation-name: moveit;
     animation-duration: 1s; */
-    background: linear-gradient(-45deg, #9221d5, #e73c7e, #6249ef, #23d5ab);
+    background: linear-gradient(-45deg, #9221d5, #947cb0, #6249ef, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 10s ease infinite;
     border-radius: 10px;
@@ -68,4 +68,8 @@
     to {
         transform: scale(1);
     }
+}
+
+.randomBtn__container {
+    margin: 25px;
 }

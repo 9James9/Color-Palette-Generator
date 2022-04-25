@@ -15,7 +15,10 @@ const ColorPicker = () => {
   }
   return (
     <div className="container">
+      <div className="randomBtn__container">
       <button className="randomBtn" onClick={() => randomColors()}>Random</button>
+      </div>
+
           <div className="colorDisplay">
               <ColorWindow
                 random={color ? randomHex() : false}/>
