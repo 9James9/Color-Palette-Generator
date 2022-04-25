@@ -9,36 +9,36 @@
     display: flex;
     align-items: center;
     width: 100%;
+    background-color: #6e7db3;
+    height: 100vh;
+    margin: 0px;
 }
 
 .randomBtn {
-    padding: 10px;
+    padding: 20px;
     /* background-image: linear-gradient(45deg,#446b61,#dad29d);
     animation-name: moveit;
     animation-duration: 1s; */
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #9221d5, #e73c7e, #6249ef, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+	animation: gradient 10s ease infinite;
     border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #f4e1e5;
+
 }
 
 .randomBtn:hover {
-    background-image: linear-gradient(95deg,#f33e88,#8df75e)
+    background-image: linear-gradient(95deg,#f33e88,#8df75e);
+    color: black;
+    box-shadow: 5px 5px 5px 1px #131824;
 }
 
 .randomBtn:active {
-    background-image: linear-gradient(45deg,#60a348,#8d79a7);
     transform: scale(1.1);
 }
 
-@keyframes moveit {
-    from {
-        background-image: linear-gradient(45deg,#446b61,#dad29d);
-    }
-    to {
-        background-image: linear-gradient(95deg,#f33e88,#8df75e)
-    }
-}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
