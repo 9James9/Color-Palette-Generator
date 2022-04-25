@@ -71,6 +71,7 @@
     animation-name: shrink;
     animation-duration: .1s;
     cursor: pointer;
+    background-color: #85d29b;
 }
 
 .colorWindow__randomBtn:active {
