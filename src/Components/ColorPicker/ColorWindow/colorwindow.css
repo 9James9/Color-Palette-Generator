@@ -90,3 +90,9 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.colorWindow__wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
