@@ -12,7 +12,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="/home" element={<ColorGenerator/>}></Route>
-          <Route path="/colorpicker" element={<ColorPicker />}></Route>
+          <Route path="/" element={<ColorPicker />}></Route>
           <Route path="/about" element={<About/>}></Route>
         </Routes>
       </BrowserRouter>
