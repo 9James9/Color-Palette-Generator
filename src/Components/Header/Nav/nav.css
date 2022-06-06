@@ -5,3 +5,18 @@
     justify-content: space-between;
     width: 100%;
 }
+.nav__items--container li{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.nav__items--container li:hover{
+    background-color: #707095;
+}
+
+.nav__items--container li:active {
+    transform: scale(1.1);
+}
