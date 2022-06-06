@@ -7,7 +7,7 @@ const Nav = () => {
     <div className='nav__container'>
         <ul className='nav__items--container'>
             <li onClick={() => navigate('/home')}>Home</li>
-            <li onClick={() => navigate('/colorpicker')}>Color picker</li>
+            <li onClick={() => navigate('/')}>Color picker</li>
             <li onClick={() => navigate('/about')}>About</li>
         </ul>
     </div>
