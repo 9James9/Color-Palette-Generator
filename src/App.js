@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import Saved from "./Components/Saved/saved";
 import ColorPicker from "./Components/ColorPicker/colorpicker";
