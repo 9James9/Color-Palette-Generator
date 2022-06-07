@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import ColorGenerator from "./Components/Home/home";
+import ColorGenerator from "./Components/Saved/saved";
 import ColorPicker from "./Components/ColorPicker/colorpicker";
 import Header from "./Components/Header/header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
