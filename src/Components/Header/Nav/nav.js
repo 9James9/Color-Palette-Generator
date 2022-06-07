@@ -6,9 +6,9 @@ const Nav = () => {
   return (
     <div className='nav__container'>
         <ul className='nav__items--container'>
-            <li onClick={() => navigate('/home')}>Home</li>
+            <li onClick={() => navigate('/about')}>About</li>
             <li onClick={() => navigate('/')}>Color picker</li>
-            <li onClick={() => navigate('/about')}>Saved Colors - in progress</li>
+            <li onClick={() => navigate('/saved')}>Saved Colors - in progress</li>
         </ul>
     </div>
   )

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import ColorGenerator from "./Components/Saved/saved";
+import Saved from "./Components/Saved/saved";
 import ColorPicker from "./Components/ColorPicker/colorpicker";
 import Header from "./Components/Header/header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
       <Header />
         <Routes>
-          <Route path="/home" element={<ColorGenerator/>}></Route>
+          <Route path="/saved" element={<Saved/>}></Route>
           <Route path="/" element={<ColorPicker />}></Route>
           <Route path="/about" element={<About/>}></Route>
         </Routes>

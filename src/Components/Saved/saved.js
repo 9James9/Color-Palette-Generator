@@ -1,13 +1,12 @@
 import React from 'react'
 import './saved.css'
-const Home = () => {
+const Saved = () => {
   return (
     <div className='home__container'>
-      <h1>Welcome to my color picker</h1>
-      <p>Idk why I made a home page but I should probably put some text here. Maybe I'll add some more stuff to this page eventually.</p>
-      <p>Click "color picker" to get to the good stuff</p>
+      <h1>Saved colors</h1>
+      <p>This is where you will be able to save colors you like. I will use localstorage to do this, and add a button below each color. I might add an option to save all 3 colors into a color palette.</p>
     </div>
   )
 }
 
-export default Home
+export default Saved
